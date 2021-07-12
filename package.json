@@ -9,8 +9,11 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
     "nodemon": "^2.0.2",
-    "sass": "^1.32.5"
+    "postcss": "^7.0.36",
+    "sass": "^1.32.5",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
   },
   "scripts": {
     "start": "nodemon server.js"
